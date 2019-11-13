@@ -1,0 +1,50 @@
+{
+ "workbench.colorTheme": "Dracula",
+ "files.autoSave": "off",
+ "window.zoomLevel": 0,
+ "editor.tabSize": 1,
+ "workbench.tree.indent": 4,
+ "editor.fontFamily": "Fira Code",
+ "editor.fontLigatures": true,
+ "editor.fontSize": 14.5,
+ "editor.lineHeight": 24,
+ "editor.formatOnSave": true,
+ "editor.rulers": [80, 120],
+ "eslint.autoFixOnSave": true,
+ "eslint.validate": [
+  {
+   "language": "javascript",
+   "autoFix": true
+  },
+  {
+   "language": "javascriptreact",
+   "autoFix": true
+  },
+  {
+   "language": "typescript",
+   "autoFix": true
+  },
+  {
+   "language": "typescriptreact",
+   "autoFix": true
+  }
+ ],
+ "workbench.iconTheme": "vscode-icons",
+ "editor.renderLineHighlight": "gutter",
+ "terminal.integrated.fontSize": 14,
+ "emmet.sintaxProfiles": {
+  "javascript": "jsx"
+ },
+ "emmet.includeLanguages": {
+  "javascript": "javascriptreact"
+ },
+ "javascript.updateImportsOnFileMove.enabled": "never",
+ "breadcrumbs.enabled": true,
+ "editor.parameterHints.enabled": false,
+ "[html]": {
+  "editor.defaultFormatter": "vscode.html-language-features"
+ },
+ "[javascript]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+ }
+}
